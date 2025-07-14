@@ -27,20 +27,7 @@ Car Rental System is a console-based Java application that enables rental agenci
 
 ---
 
-## 🗃️ File Structure
-CarRentalSystem/
-├── src/
-│ ├── model/ # Car, Rental, Customer, Vehicle
-│ ├── service/ # CarRentalService, RentalManager
-│ └── file/ # CarFileReader, CarFileWriter
-├── cars.csv # Stores car inventory
-├── rentals.csv # Stores rental history
-├── README.md
-└── Main.java # Entry point
-
---
-
-##🧭 User Commands
+## 🧭 User Commands
 At the console prompt, you can enter:
 
 | Command       | Description                        |
@@ -56,6 +43,8 @@ At the console prompt, you can enter:
 | `exit`        | Exit the app without saving        |
 | `saveexit`    | Save and exit                      |
 | `help`        | Show command help                  |
+
+---
 
 Data is saved automatically when you run save or saveexit
 
